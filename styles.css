@@ -2,15 +2,33 @@ body {
     background-color: rgb(28, 22, 15); /* color de fondo de toda la página */ 
     color:#fff; /* color de letra de toda la página */
 }
+#f1{
+    background-image: url('assets/fonfo33.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    color:  rgb(28, 22, 15);
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900; /* peso del contorno de la letra */
     color: rgb(191, 164, 135);
     font-size: 5em;
+    font-family: 'Special Elite', cursive;
 }
+#carta1 {
+    margin-top: 250px;
+    font-family: 'Homemade Apple', cursive;
+}
+picture {
+    display: flex;
+    justify-content: center;
+}
+
 p {
     text-align: center;
+
 }
 /* lista y enlace */
 #opciones {
@@ -24,11 +42,15 @@ p {
 }
 .boton {
     text-decoration: none; /* Eliminamos el subrayado del enlace */
-    color: #fff;
+    color:  rgb(165, 137, 104);
     border: 2px solid rgb(191, 164, 135);
     padding: 5px; /* margen interior */
     border-radius: 5px;
     display: inline-block;
+}
+
+#buton1 {
+    color: rgb(28, 22, 15);
 }
 
 .boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
@@ -39,4 +61,8 @@ h3{
     color: rgb(191, 164, 135);
     text-align: center;
     font-size: 4em;
+    font-family: 'Special Elite', cursive;
+}
+.carta{
+   font-family: 'Homemade Apple', cursive;
 }
