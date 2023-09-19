@@ -8,7 +8,11 @@ body {
     background-position: 50% 0%;
     color:  rgb(28, 22, 15);
 }
-
+.entrevista{
+    font-family: 'Special Elite', cursive;
+    color: rgb(191, 164, 135);
+    font-size: 2em;
+}
 h1 {
     text-align: center;
     text-transform: uppercase;
@@ -19,7 +23,9 @@ h1 {
 }
 #carta1 {
     margin-top: 250px;
+    margin-left: 650px;
     font-family: 'Homemade Apple', cursive;
+    text-align: left;
 }
 picture {
     display: flex;
@@ -53,6 +59,10 @@ p {
     color: rgb(28, 22, 15);
 }
 
+#buton2 {
+    color: rgb(165, 137, 104);
+}
+
 .boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
     background-color: rgb(165, 137, 104);
     color: #000;
@@ -65,4 +75,8 @@ h3{
 }
 .carta{
    font-family: 'Homemade Apple', cursive;
+}
+#t1{
+    margin-top: 240px;
+    font-size: 20px;
 }
