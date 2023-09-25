@@ -2,7 +2,7 @@ body {
     background-color: rgb(28, 22, 15); /* color de fondo de toda la página */ 
     color:#fff; /* color de letra de toda la página */
 }
-#f1{
+.f1{
     background-image: url('assets/fonfo33.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0%;
@@ -37,12 +37,12 @@ p {
 
 }
 /* lista y enlace */
-#opciones {
+.opciones {
     text-align: center;
     list-style: none; /* elimina los puntitos (viñeta) */
 }
 
-#opciones li {
+.opciones li {
     display: inline-block; /* la lista la coloca horizontalmente */
     padding: 10px;
 }
